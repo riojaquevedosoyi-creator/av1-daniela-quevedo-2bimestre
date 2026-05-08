@@ -1,24 +1,24 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Fredoka", sans-serif;
   margin: 20px;
   padding: 20px;
 }
 
 header {
-  background-color: #333;
-  color: darkred;
+  background-color: #e67ecb;
+  color: rgb(184, 9, 61);
   padding: 20px;
   text-align: center;
 }
 
 nav {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(184, 9, 61);
   padding: 10px;
   text-align: center;
 }
 
 nav a {
-  color: white;
+  color: rgb(248, 137, 248);
   text-decoration: underline;
   margin: 10px;
 }
@@ -30,12 +30,16 @@ main {
 section {
   margin-bottom: 30px;
   padding: 15px;
-  border: 1px solid #ccc;
+  border: 1px solid #b41818;
 }
 
 footer {
-  background-color: #333;
-  color: white;
+  background-color: #000000;
+  color: rgb(238, 148, 218);
   text-align: center;
   padding: 15px;
+}
+
+h1 {
+  font-family: "Fredoka", sans-serif;
 }
