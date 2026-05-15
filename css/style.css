@@ -18,7 +18,7 @@ nav {
 }
 
 nav a {
-  color: rgb(248, 137, 248);
+  color: rgb(245, 155, 245);
   text-decoration: underline;
   margin: 10px;
 }
@@ -42,4 +42,53 @@ footer {
 
 h1 {
   font-family: "Fredoka", sans-serif;
+}
+
+.centro {
+  display: block;
+  margin: 0 auto;
+}
+
+header {
+  height: 300px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url("../img/download\ \(1\).jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  color: rgb(192, 34, 69);
+}
+
+.meio {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  background-color: #f5f5f5;
+}
+
+.galeria {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+  flex-wrap: wrap; /* faz quebrar linha no celular */
+}
+
+.galeria img {
+  width: 320px;
+  height: auto;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.galeria img:hover {
+  transform: scale(1.05);
 }
