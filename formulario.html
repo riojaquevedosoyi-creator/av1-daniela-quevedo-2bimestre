@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Quiz da Amy Rose</title>
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #ffe4f1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      }
+
+      .form-container {
+        background-color: white;
+        padding: 25px;
+        border-radius: 15px;
+        width: 400px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+      }
+
+      h2 {
+        text-align: center;
+        color: #ff4fa3;
+      }
+
+      label {
+        display: block;
+        margin-top: 10px;
+        font-weight: bold;
+      }
+
+      input,
+      select {
+        width: 100%;
+        padding: 8px;
+        margin-top: 5px;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+      }
+
+      button {
+        margin-top: 15px;
+        width: 100%;
+        padding: 10px;
+        background-color: #ff4fa3;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: #e63e8f;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="form-container">
+      <h2>🌹 Quiz da Amy Rose 🌹</h2>
+
+      <form>
+        <label>Qual o seu nome?</label>
+        <input type="text" placeholder="Seu nome" />
+
+        <label>Quem a Amy Rose gosta?</label>
+        <select>
+          <option value="">Escolha uma opção</option>
+          <option>Shadow</option>
+          <option>Knuckles</option>
+          <option>Sonic</option>
+          <option>Tails</option>
+        </select>
+
+        <label>Qual é a arma da Amy?</label>
+        <select>
+          <option value="">Escolha uma opção</option>
+          <option>Pico Pico Hammer</option>
+          <option>Espada</option>
+          <option>Arco e flecha</option>
+          <option>Escudo</option>
+        </select>
+
+        <label>A Amy é de qual série?</label>
+        <select>
+          <option value="">Escolha uma opção</option>
+          <option>Sonic the Hedgehog</option>
+          <option>Mario</option>
+          <option>Pokémon</option>
+          <option>Dragon Ball</option>
+        </select>
+
+        <label>Qual frase combina com a Amy?</label>
+        <select>
+          <option value="">Escolha uma opção</option>
+          <option>"Eu nunca desisto!"</option>
+          <option>"Eu não gosto do Sonic"</option>
+          <option>"Eu sou vilã"</option>
+          <option>"Eu odeio amigos"</option>
+        </select>
+
+        <button type="submit">Enviar 💌</button>
+      </form>
+    </div>
+  </body>
+</html>
